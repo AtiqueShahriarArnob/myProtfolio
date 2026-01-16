@@ -1,7 +1,7 @@
 
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/asa-7-logo-png-transparent.png';
+import logo from '../../../public/assets/asa-7-logo-png-transparent.png';
 import { useState } from 'react';
 
 const Navbar = () => {

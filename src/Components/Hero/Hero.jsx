@@ -2,7 +2,7 @@ import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
-import myImg from '../../assets/Adobe Express - file.png';
+import myImg from '../../../public/assets/Adobe Express - file.png';
 
 const Hero = () => {
     return (
