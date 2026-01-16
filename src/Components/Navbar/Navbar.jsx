@@ -32,30 +32,13 @@ const Navbar = () => {
                 ))}
             </ul>
 
-            <div className='hidden md:flex flex-shrink-0'>
-                <a href="/resume.pdf" download="My_Resume.pdf" className='bg-pink-600 hover:bg-transparent border-2 border-pink-600 text-white px-5 py-2 rounded-md duration-300 font-bold'>
-                    Download Resume
-                </a>
-            </div>
 
 
-            <div onClick={handleClick} className='md:hidden z-10 cursor-pointer text-2xl'>
-                {!nav ? <FaBars /> : <FaTimes />}
-            </div>
 
 
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-                {navLinks.map(({ id, title, link }) => (
-                    <li key={id} className='py-6 text-4xl hover:text-pink-600'>
-                        <Link onClick={handleClick} to={link}>{title}</Link>
-                    </li>
-                ))}
-                <li className='py-6'>
-                    <a href="/resume.pdf" download className='bg-pink-600 text-white px-6 py-3 rounded-md text-xl'>
-                        Download Resume
-                    </a>
-                </li>
-            </ul>
+
+
+
         </nav>
     );
 };
