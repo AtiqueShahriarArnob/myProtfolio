@@ -1,0 +1,79 @@
+[
+    {
+        "id": "fitness-app",
+        "title": "Fitness Application",
+        "image": "../src/assets/gym-image.jpg",
+        "techStack": "HTML, CSS, Tailwind CSS, DaisyUI",
+        "description": "It is a demo gym website.",
+        "challenges": "Ensuring responsiveness on all devices.",
+        "future": "Adding more user functionalities.",
+        "live": "https://atiqueshahriararnob.github.io/asgmt-two/",
+        "github": "https://github.com/AtiqueShahriarArnob/asgmt-two"
+    },
+    {
+        "id": "bistro-boss",
+        "title": "BistroBoss",
+        "image": "../src/assets/bistro-image.jpg",
+        "techStack": "React, MongoDB, Firebase",
+        "description": "A premium restaurant management system.",
+        "challenges": "Managing complex state for the food cart.",
+        "future": "Integrating a payment gateway.",
+        "live": "https://bistro-boss-89056.web.app/",
+        "github": "https://github.com/AtiqueShahriarArnob/bistro-boss-client"
+    },
+    {
+        "id": "architect-website",
+        "title": "Architect Website",
+        "image": "../src/assets/banner.png",
+        "techStack": "React, MongoDB, Firebase",
+        "description": "A premium restaurant management system.",
+        "challenges": "Managing complex state for the food cart.",
+        "future": "Integrating a payment gateway.",
+        "live": "https://atiqueshahriararnob.github.io/asgmt-three/",
+        "github": "https://github.com/AtiqueShahriarArnob/asgmt-three"
+    },
+    {
+        "id": "donate-bangladesh",
+        "title": "Donate Bangladesh",
+        "image": "../src/assets/donate-bangladesh.png",
+        "techStack": "React, MongoDB, Firebase",
+        "description": "A premium restaurant management system.",
+        "challenges": "Managing complex state for the food cart.",
+        "future": "Integrating a payment gateway.",
+        "live": "https://atiqueshahriararnob.github.io/asgmt-five/",
+        "github": "https://github.com/AtiqueShahriarArnob/asgmt-five"
+    },
+    {
+        "id": "eco-adventure-experiences",
+        "title": "Eco-Adventure Experiences",
+        "image": "../src/assets/eco.jpg",
+        "techStack": "React, MongoDB, Firebase",
+        "description": "A premium restaurant management system.",
+        "challenges": "Managing complex state for the food cart.",
+        "future": "Integrating a payment gateway.",
+        "live": "https://eco-adventure-experience-788bc.firebaseapp.com/",
+        "github": "https://github.com/AtiqueShahriarArnob/Eco-Adventure-Experiences"
+    },
+    {
+        "id": "Gadget-Heaven",
+        "title": "Gadget-Heaven",
+        "image": "../src/assets/haven.png",
+        "techStack": "React, MongoDB, Firebase",
+        "description": "A premium restaurant management system.",
+        "challenges": "Managing complex state for the food cart.",
+        "future": "Integrating a payment gateway.",
+        "live": "https://velvety-baklava-03052d.netlify.app/",
+        "github": "https://github.com/AtiqueShahriarArnob/Gadget-Heaven"
+    },
+    {
+        "id": "developer-protfolio",
+        "title": "Developer Protfolio",
+        "image": "../src/assets/protfolio.jpg",
+        "techStack": "React, MongoDB, Firebase",
+        "description": "A premium restaurant management system.",
+        "challenges": "Managing complex state for the food cart.",
+        "future": "Integrating a payment gateway.",
+        "live": "https://comfy-kashata-db805a.netlify.app/",
+        "github": "https://github.com/AtiqueShahriarArnob/protfolio"
+    }
+]
