@@ -2,7 +2,7 @@
     {
         "id": "developer-protfolio",
         "title": "Developer Protfolio",
-        "image": "/public/assets/protfolio.jpg",
+        "image": "https://i.ibb.co.com/Xnbsztp/protfolio.avif",
         "techStack": "HTML, CSS",
         "description": "personal portfolio website designed to present my profile, skills, education, and projects in a simple and professional layout. The site focuses on clean design and clear content to create an effective online presence as a front-end developer.",
         "challenges": "Making the layout clean and responsive without using JavaScript.",
@@ -13,7 +13,7 @@
     {
         "id": "fitness-app",
         "title": "Fitness Application",
-        "image": "/public/assets/gym-image.jpg",
+        "image": "https://i.ibb.co.com/DPjPnn34/gym-image.jpg",
         "techStack": "HTML, CSS",
         "description": "A fitness-themed landing page showcasing workout plans, pricing, BMI calculator information, and fitness goals with a clean and structured layout.",
         "challenges": "Ensuring consistent section styling and layout using only HTML and CSS.",
@@ -24,7 +24,7 @@
     {
         "id": "architect-website",
         "title": "Architect Website",
-        "image": "/public/assets/banner.png",
+        "image": "https://i.ibb.co.com/vxSn5Gqx/banner.jpg",
         "techStack": "HTML, CSS",
         "description": "A creative interior design landing page showcasing architecture-style visuals, service sections, a portfolio grid, customer reviews, and a contact section in a modern layout.",
         "challenges": "Organizing multiple content sections and layouts using only HTML and CSS.",
@@ -35,7 +35,7 @@
     {
         "id": "bike-zone",
         "title": "Bike Zone",
-        "image": "/public/assets/latest2.png",
+        "image": "https://i.ibb.co.com/60bQ94cP/latest2.png",
         "techStack": "HTML, CSS, Bootstrap",
         "description": "A motorcycle-themed landing page featuring product showcases, latest news sections, an FAQ accordion, and customer testimonial visuals with a modern Bootstrap-based layout.",
         "challenges": "structuring multiple sections and maintaining a consistent design using Bootstrap’s grid system and components.",
@@ -46,7 +46,7 @@
     {
         "id": "donate-bangladesh",
         "title": "Donate Bangladesh",
-        "image": "/public/assets/donate-bangladesh.png",
+        "image": "https://i.ibb.co.com/zhxT9dN1/donate-bangladesh.jpg",
         "techStack": "HTML, CSS,Tailwind CSS,DaisyUI, JavaScript",
         "description": "A donation website UI that displays donation causes and allows users to interact with donation-related content, including simple on‑page calculations using JavaScript.",
         "challenges": "Implementing donation logic and structuring multiple content sections using HTML, CSS, and JavaScript.",
@@ -57,7 +57,7 @@
     {
         "id": "my-eleven",
         "title": "My-Eleven",
-        "image": "/public/assets/my-eleven.png",
+        "image": "https://i.ibb.co.com/zhdtXhj0/my-eleven.avif",
         "techStack": "HTML5, CSS3,Tailwind CSS,JavaScript",
         "description": "A sports team management app where users claim credits to 'buy' players. Features a dynamic balance system, a player selection limit (6 players), and a toggleable view between available and selected players.",
         "challenges": "Implementing strict validation logic to prevent duplicate selections and managing team size limits dynamically.",
@@ -68,7 +68,7 @@
     {
         "id": "Gadget-Heaven",
         "title": "Gadget-Heaven",
-        "image": "/public/assets/haven.png",
+        "image": "https://i.ibb.co.com/5hQXR1GM/haven.webp",
         "techStack": "React.js, Tailwind CSS, DaisyUI, React Router DOM",
         "description": "feature-rich e-commerce platform called 'Gadget Heaven' that allows users to browse tech products by category, view detailed product specifications, and manage both a shopping cart and a wishlist.",
         "challenges": " Managing complex application states to ensure the cart and wishlist counts update accurately across different routes while preventing duplicate entries in the wishlist.",
@@ -79,7 +79,7 @@
     {
         "id": "eco-adventure-experiences",
         "title": "Eco-Adventure Experiences",
-        "image": "/public/assets/eco.jpg",
+        "image": "https://i.ibb.co.com/S4NS1XZ2/eco.jpg",
         "techStack": "React.js, Tailwind CSS, DaisyUI, Firebase Authentication, React Router DOM, Animate.css / AOS (Animation libraries).",
         "description": "An 'Eco-Adventure' tourism platform that showcases sustainable travel experiences like mountain treks, forest safaris, and ocean dives. The site features secure user authentication (Google/Email), a detailed adventure guide, and an interactive 'Talk to Expert' consultation system.",
         "challenges": "Managing complex state for the food cart.",
@@ -90,7 +90,7 @@
     {
         "id": "bistro-boss",
         "title": "BistroBoss",
-        "image": "../src/assets/bistro-image.jpg",
+        "image": "https://i.ibb.co.com/Kz8xDNpP/bistro-image.jpg",
         "techStack": "React.js, Node.js, Express.js, MongoDB (MERN Stack), Tailwind CSS, Firebase, Stripe.",
         "description": "A professional restaurant management and e-commerce platform that allows users to browse food categories, add items to a cart, and make secure online payments. It includes a dedicated admin dashboard for managing menus, monitoring revenue, and handling user roles.",
         "challenges": "Implementing role-based access control (Admin vs. User) and securing private API routes using JWT (JSON Web Tokens) to ensure data privacy and safe financial transactions.",

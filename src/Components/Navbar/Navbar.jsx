@@ -1,8 +1,8 @@
+import { Link } from 'react-router-dom';
+import logo from '../../../src/assets/asa-7-logo-png-transparent.png';
+import { useState } from 'react';
 
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
-import logo from '../../../public/assets/asa-7-logo-png-transparent.png';
-import { useState } from 'react';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -33,12 +33,22 @@ const Navbar = () => {
             </ul>
 
 
+            <div onClick={handleClick} className='md:hidden z-10 cursor-pointer text-2xl'>
+                {!nav ? <FaBars /> : <FaTimes />}
+            </div>
 
-
-
-
-
-
+            {/* Mobile Menu Overlay */}
+            <ul className={
+                !nav
+                    ? 'hidden'
+                    : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+            }>
+                {navLinks.map(({ id, title, link }) => (
+                    <li key={id} className='py-6 text-4xl hover:text-pink-600'>
+                        <Link onClick={handleClick} to={link}>{title}</Link>
+                    </li>
+                ))}
+            </ul>
         </nav>
     );
 };

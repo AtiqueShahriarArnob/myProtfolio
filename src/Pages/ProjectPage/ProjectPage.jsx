@@ -5,6 +5,7 @@ const ProjectsPage = () => {
     const [selectedProject, setSelectedProject] = useState(null);
 
     useEffect(() => {
+
         fetch('/projects.json')
             .then((res) => res.json())
             .then((data) => setProjects(data))
@@ -30,14 +31,14 @@ const ProjectsPage = () => {
                         <div className='w-full h-[1px] bg-pink-600 mb-8'></div>
                     </div>
 
+
                     <img
                         src={selectedProject.image}
                         alt={selectedProject.title}
-                        className='w-full rounded-lg border-2 border-gray-800 mb-8 shadow-2xl'
+                        className='w-full rounded-lg border-2 border-gray-800 mb-8 shadow-2xl object-cover'
                     />
 
                     <div className='bg-[#112240] p-8 rounded-lg text-left border border-gray-800'>
-
                         <p className='mb-4 text-lg'><span className='text-pink-600 font-bold'>Tech Stack:</span> {selectedProject.techStack}</p>
                         <p className='mb-4 text-lg'><span className='text-pink-600 font-bold'>Description:</span> {selectedProject.description}</p>
                         <p className='mb-4 text-lg'><span className='text-pink-600 font-bold'>Challenges:</span> {selectedProject.challenges}</p>
@@ -57,22 +58,24 @@ const ProjectsPage = () => {
     return (
         <div className='w-full min-h-screen bg-[#0a192f] text-gray-300 pt-[120px] pb-20 px-4'>
             <div className='max-w-[1100px] mx-auto'>
-
-
                 <div className='mb-20 text-center'>
                     <h2 className='text-5xl font-bold text-white border-b-4 border-pink-600 inline-block mb-4 uppercase'>
                         Projects
                     </h2>
                     <p className='text-xl text-gray-400'>
-                // Some of my Practice works and technical applications
+                        // Some of my recent works and technical applications
                     </p>
                 </div>
 
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-10'>
                     {projects.map((project) => (
                         <div key={project.id} className='bg-[#112240] rounded-xl overflow-hidden shadow-lg border border-gray-800 flex flex-col hover:border-pink-600/50 transition-all group'>
-                            <div className='overflow-hidden'>
-                                <img src={project.image} alt={project.title} className='w-full h-52 object-cover group-hover:scale-105 transition-transform duration-300' />
+                            <div className='overflow-hidden h-52'>
+                                <img
+                                    src={project.image}
+                                    alt={project.title}
+                                    className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-300'
+                                />
                             </div>
                             <div className='p-6 flex flex-col flex-grow'>
                                 <h3 className='text-xl font-bold text-white mb-6 uppercase tracking-wide'>{project.title}</h3>
